@@ -1,0 +1,9 @@
+- before: # run before the link phase
+  # create dirs, install common dependencies
+- link: # link things
+  name: # name of the current link?
+    pre: # do something before linking this
+      # install specific dependency
+    post: # do something after linking this
+      # run some configuration, activate something
+- after: # run after link phase
